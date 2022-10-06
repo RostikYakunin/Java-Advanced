@@ -1,0 +1,15 @@
+<!ELEMENT worker EMPTY>
+        <!ELEMENT workers (worker+)>
+        <!ELEMENT cabinet (workers)>
+        <!ELEMENT cabinets (cabinet+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT company (name, cabinets)>
+
+        <!ATTLIST worker
+                name CDATA #REQUIRED
+                job CDATA #REQUIRED
+                >
+
+        <!ATTLIST cabinet
+                room CDATA #REQUIRED
+                >

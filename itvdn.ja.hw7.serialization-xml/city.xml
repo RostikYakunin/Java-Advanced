@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cities>
+    <city type="Big">
+        <name>Kiev</name>
+        <number number="19"/>
+        <street street="Balzaka str."/>
+    </city>
+    <city type="Small">
+        <name>Irpin</name>
+        <number number="12"/>
+        <street street="Pyshkinska str."/>
+    </city>
+</cities>

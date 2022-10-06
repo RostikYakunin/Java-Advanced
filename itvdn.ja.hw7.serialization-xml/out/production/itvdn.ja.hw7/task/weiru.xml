@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE company SYSTEM "rules.dtd">
+
+<company>
+    <name>IT</name>
+
+    <cabinets>
+
+        <cabinet room="1">
+            <workers>
+
+                <worker name="Ivan" job="developer"/>
+                <worker name="John" job="junior"/>
+
+            </workers>
+        </cabinet>
+
+        <cabinet room="2">
+            <workers>
+
+                <worker name="Natali" job="sodgjoisg"/>
+                <worker name="Susan" job="qwertyu"/>
+
+            </workers>
+        </cabinet>
+
+        <cabinet room="3">
+            <workers>
+                <worker name="Ivango" job="Driver"/>
+                <worker name="Stiven" job="Manager"/>
+            </workers>
+        </cabinet>
+
+    </cabinets>
+</company>
